@@ -56,11 +56,11 @@ h1, h2, h3, h4, h5{
     height: 120vh;
 }
 .nicMain-left .inner{
-    margin: 45vh 0 0 20vh;
+    margin: 45vh 0 0 16.5vh;
 }
 .nicMain-left .inner h1{
     font-family: 'Manrope', sans-serif;
-    font-size: 11vh;
+    font-size: 10vh;
     font-weight: 500;
 }
 .nicMain-left .inner h5{
