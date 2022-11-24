@@ -32,7 +32,12 @@ h1, h2, h3, h4, h5{
 .nav ul li{
     font-weight: 600;
     list-style-type: none;
-    margin-left: 2.5vw;
+    margin-left: 2vw;
+}
+.nav ul li a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 .nav ul{
     display: flex;
@@ -43,10 +48,12 @@ h1, h2, h3, h4, h5{
 .nav-right{
     margin-left: auto;
 }
-.nav-right i{
+.nav-right a{
     color: rgb(197, 192, 192);
     margin-right: 3vw;
     font-size: 1.7vw;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -62,11 +69,6 @@ h1, h2, h3, h4, h5{
     font-family: 'Manrope', sans-serif;
     font-size: 10vh;
     font-weight: 500;
-}
-.nicMain-left .inner h5{
-    width: 35vw;
-    margin-top: 10px;
-    line-height: 170%;
 }
 
 /* Main NIC Right */
@@ -497,9 +499,12 @@ h1, h2, h3, h4, h5{
     align-items: flex-end;
     justify-content: end;
 }
-.links-right ul i{
+.links-right ul a{
     font-size: 2vw;
     color: gray;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 35px;
 }
 .links-right ul i:not(:last-child){
     margin-right: 3vw;
