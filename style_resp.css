@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+/* Code for Mobile responsiveness */
+
+
+
+
+
+@media screen and (max-width: 576px){
+    /* NIC Main */
+    .nav-left {
+        margin-top: 0;
+    }
+
+    .nav ul {
+        margin-top: 2vh;
+    }
+
+    .nav ul li {
+        margin-left: 2vw;
+    }
+    .nav-right a{
+        color: rgb(197, 192, 192);
+        margin-right: 3vw;
+        font-size: 2vw;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .nicMain {
+        height: 30vh;
+    }
+
+    .nicMain-left .inner {
+        margin: 12vh 0 0 5vh;
+    }
+
+    .nav-left ul li a {
+        font-size: 1.5vh;
+        margin-top: 0;
+    }
+
+    /* Heading */
+    .nicMain-left .inner h1 {
+        font-size: 3.5vh;
+    }
+
+    /* Right */
+    .half-circle1 {
+        display: none;
+    }
+
+    .half-circle2 {
+        width: 70px;
+        height: 35px;
+    }
+
+    .imgYellow {
+        right: 15vw;
+        width: 8vw;
+        height: 8vw;
+    }
+    .imgPink {
+        width: 8vw;
+        height: 8vw;
+        right: 6vw;
+        bottom: 2vw;
+    }
+
+    
+    /* Our Impact */
+    .ourImpact h2{
+        font-size: 5vh;
+    }
+    .ourImpact-inner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+    }
+    .ourImpact-boxes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25vw;
+        margin-left: 0;
+    }
+    .ourImpact-boxes .box{
+        margin-top: 15vh;
+    }
+
+    .ourImpact-inner h1{
+        font-size: 4vh;
+    }
+}
