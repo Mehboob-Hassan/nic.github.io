@@ -13,19 +13,32 @@
     /* NIC Main */
     .nav-left {
         margin-top: 0;
+        background-color: white;
+        border-radius: 10px;
+        padding: 0;
     }
 
     .nav ul {
         margin-top: 2vh;
     }
 
-    .nav ul li {
-        margin-left: 2vw;
+    .nav ul li:not(first-child){
+        margin-left: 1vw;
+    }
+    .nav-right{
+        display: flex;
+        flex-direction: column;
+        margin-top: -5vw;
+        background-color: #FFF7E5;
+        border-radius: 6px 0 0 6px;
+        position: fixed;
+        top:50%;
     }
     .nav-right a{
-        color: rgb(197, 192, 192);
-        margin-right: 3vw;
-        font-size: 2vw;
+        color: #0D0C74;
+        margin-left: 2vw;
+        margin-top: 2vw;
+        font-size: 4.2vw;
         text-decoration: none;
         cursor: pointer;
     }
