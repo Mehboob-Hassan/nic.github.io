@@ -54,13 +54,12 @@ No external frameworks or libraries were used — this project is built from scr
 
 _(Add your screenshots here if available)_
 
-```markdown
+
 ![Hero Section ScreenshoSt](images/hero_section.PNG)
 ![Our Impact Section Screenshot](images/our_impact.PNG)
 ![Testimonial Section Screenshot](images/testimonial_section.PNG)
 ![Footer Section Screenshot](images/footer.PNG)
 
-``` 
 
 ## 👨‍💻 Author
 
